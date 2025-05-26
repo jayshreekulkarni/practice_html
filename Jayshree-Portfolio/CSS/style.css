@@ -1,0 +1,576 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.main
+{
+    width: 1500px;
+    /* background: black; */
+    /* border: 2px solid red; */
+    
+
+}
+.container
+{
+    width: 1400px;
+    margin: 10px 40px;
+    /* border: 2px solid blue; */
+   
+}
+.header
+{
+    background: black;  
+    position: relative;
+    
+}
+.header .logo
+{
+    font-size: 25px;
+    font-weight: bold;
+    /* font-family: sans-serif; */
+    color: white;
+    margin-left: 50px;
+    
+}
+.menu 
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+
+}
+.menu li
+{
+    display: inline;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: sans-serif; */
+    position: relative;
+}
+.menu li::before
+{
+    content: "";
+    height: 2px ;
+    width: 0%;
+    background: white;
+    position: absolute;
+    top:100%;
+    left:0;
+    transition: .43s;
+}
+.menu li:hover::before
+{
+    width: 100%;
+
+}
+.image::before
+{
+    content: "";
+    background: color-mix(in srgb, black,white, transparent 30%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.image img
+{
+    width: 100%;
+    height: 700px;
+    
+}
+.content
+{
+    width: inherit;
+    background: white;
+    /* border: 2px solid orange; */
+   
+    
+}
+.content .about
+{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    
+
+}
+.row
+{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0; 
+}
+.col1
+{
+    width: 580px;
+    /* border: 2px solid green; */
+    margin: 10px 10px;
+}
+.banner1
+{
+    width: 500px;
+    margin: 10px 40px;
+    /* border: 2px solid black; */
+    /* padding: 0px 0;  */
+}
+.col1img
+{
+    width: 200px;
+    height: 200px;
+    /* background:lightcyan; */
+}
+.col1img img
+{
+    width: 100%;
+    height: 100%;
+
+}
+.col1text
+{
+    width: 280px;
+    height: 200px;
+    /* background: lightcoral; */
+    font-size: 18px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    
+  
+}
+
+.skills
+{
+    width: 580px;
+    /* border: 2px solid black; */
+}
+.banner2
+{
+    width: 500px;
+    margin: 5px auto;
+}
+.banner2 h5
+{
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+}
+.skill1
+{
+    width: 540px;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    position: relative;
+}
+.skill1 p
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.skillbar
+{
+    height: 10px;
+    width: 100%;
+    color: lightskyblue;
+}
+.skill2
+{
+    width: 540px;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    position: relative;
+}
+.skill2 p
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.skill3
+{
+    width: 540px;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    position: relative;
+}
+.skill3 p
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.col2
+{
+    width: 580px;
+    /* border: 2px solid red; */
+    margin: 10px 10px;
+}
+/* .banner3
+{
+    width: inherit;
+    margin: 10px 0px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0px 0;  */
+} */
+.aboutme
+{
+    width: 500px;
+    margin: 20px 20px 50px 20px;
+    /* border: 2px solid black; */
+}
+.aboutme h2
+{
+    font-family: "raleway", sans-serif;
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.aboutme h2::after
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: rgba(47, 123, 216, 0.856);
+}
+.resume
+{
+    width: inherit;
+    /* border: 2px solid coral; */
+
+}
+.title
+{
+    width: 1200px;
+    /* border: 2px solid blue; */
+    margin: 10px auto;
+
+}
+.title h2
+{
+    font-family:"raleway", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    text-align: center;
+   
+}
+.title h2::after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 50px;
+    height: 5px;
+    margin: auto;
+    background: rgba(47, 123, 216, 0.856);
+}
+.container2
+{
+    width: 1200px;
+    /* border: 2px solid black; */
+    margin: 20px auto ;
+}
+.row2
+{
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col4
+{
+    width: 540px;
+    /* border: 2px solid green; */
+}
+.col4 h3
+{
+    font-family:"raleway", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    margin: 20px 0px;
+}
+.info1
+{
+    padding: 0px 20px;
+    border-left: 2px solid rgba(32, 115, 209, 0.871);
+    position: relative;
+    /* margin: -10px 0px; */
+}
+.info1::before
+{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: white;
+    border: 2px solid rgba(32, 115, 209, 0.871);
+    position: absolute;
+    top:0px;
+    left: -8px;
+    border-radius: 50px; 
+}
+.info1 h4
+{
+    font-family:"raleway", sans-serif;
+    font-size: 20px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.info1 p
+{
+    margin-top: 10px;
+}
+.info1 ul li
+{
+    margin: 10px 10px;
+    padding: 8px 0px;
+    color: rgb(123, 122, 122);
+}
+.info2
+{
+    padding: 0px 20px;
+    border-left: 2px solid rgba(32, 115, 209, 0.871);
+    position: relative;
+    /* margin: -10px 0px; */
+}
+.info2::before
+{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: white;
+    border: 2px solid rgba(32, 115, 209, 0.871);
+    position: absolute;
+    top:0px;
+    left: -8px;
+    border-radius: 50px; 
+}
+.info2 h4
+{
+    font-family:"raleway", sans-serif;
+    font-size: 20px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.info2 p
+{
+    margin: 10px 20px;
+    
+}
+.info2 span
+{
+    margin: 10px 10px;
+    padding: 8px 0px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.col5
+{
+    width: 540px;
+    /* border: 2px solid orange; */
+}
+.col5 h3
+{
+    font-family:"raleway", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    margin: 20px 0px;
+}
+.info3
+{
+    padding: 0px 20px;
+    border-left: 2px solid rgba(32, 115, 209, 0.871);
+    position: relative;
+    /* margin: -10px 0px; */
+}
+.info3::before
+{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: white;
+    border: 2px solid rgba(32, 115, 209, 0.871);
+    position: absolute;
+    top:0px;
+    left: -8px;
+    border-radius: 50px; 
+}
+.info3 h4
+{
+    font-family:"raleway", sans-serif;
+    font-size: 20px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.info3 p
+{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.info3 ul li
+{
+    margin: 10px 10px;
+    padding: 8px 0px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.info4
+{
+    padding: 0px 20px;
+    border-left: 2px solid rgba(32, 115, 209, 0.871);
+    position: relative;
+    /* margin: -10px 0px; */
+}
+.info4::before
+{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: white;
+    border: 2px solid rgba(32, 115, 209, 0.871);
+    position: absolute;
+    top:0px;
+    left: -8px;
+    border-radius: 50px; 
+}
+.info4 h4
+{
+    font-family:"raleway", sans-serif;
+    font-size: 20px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.info4 p
+{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.info4 ul li
+{
+    margin: 10px 10px;
+    padding: 8px 0px;
+    color: rgb(123, 122, 122);
+    text-transform: capitalize;
+}
+.portfolio
+{
+    width: inherit;
+    border: 2px solid coral; 
+
+}
+.title2
+{
+    width: 1100px;
+    border: 2px solid blue; 
+    margin: 10px auto;
+
+}
+.title2 h2
+{
+    font-family:"raleway", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    text-align: center;
+   
+}
+.title2 h2::after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 50px;
+    height: 5px;
+    margin: auto;
+    background: rgba(47, 123, 216, 0.856);
+}
+.container3
+{
+    width: 1200px;
+    border: 2px solid black; 
+    margin: 20px auto ;
+}
+.menu1
+{
+    width: 550px;
+    /* background: lightblue; */
+    margin: 5px auto;
+    
+}
+.menu1 ul li
+{
+    list-style: none;
+    display: inline;
+    padding: 15px;    
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.menu1 ul li a
+{
+    color: black;
+}
+.menu1 ul li:hover a
+{
+    color: rgb(52, 177, 255);
+}
+.projects
+{
+    width: inherit;
+    border: 2px solid red;
+    margin: 0px auto;
+    
+} 
+.projectrow
+{
+    width: 1200px;
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}
+.prjctcol
+{
+    width: 380px;
+    border:  2px solid black;
+}
+.prjctcol img
+{
+    width: 100%;
+    height: 75%;
+}

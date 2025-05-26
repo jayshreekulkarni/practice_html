@@ -1,0 +1,22 @@
+@media (max-width: 992px) 
+{
+    .listtext{
+        display: none;
+    }
+    .banner{
+         margin: 0;
+    }
+    .bars {
+        display: block;
+        margin-left: auto;
+    }
+    .nav ul{
+        display: none;
+    }
+    .btn
+    {
+        right: 40px;
+        position: absolute;
+    }
+
+}

@@ -1,0 +1,307 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container
+{
+    border: 2px solid black;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.header
+{
+    background-color: #C2EFD4;
+}
+.row, .image_col
+{
+    display: flex;
+}
+.row
+{
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main
+{
+    padding: 60px 0px;
+}
+.nav_row
+{
+    padding-bottom: 80px;
+}
+.col
+{
+    width: 300px;
+    border: 2px solid red;
+    flex-grow: 1;  
+   
+}
+.head_logo_font, .link_font_pop a, .login_btn, .head_font_rufi, .para_pop, .head_font_robo, .pdct_btn a
+{
+    color: #224F34;
+}
+.btn
+{
+    border: 2px solid #224F34;
+}
+.head_logo_font
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+.nav-links
+{
+    width: 500px;
+    padding: 5px 0px;
+    /* background-color: lightcoral; */
+}
+.bars
+{
+    width: 50px;
+    display: none;
+}   
+.icon
+{
+    font-size: 30px;
+    padding: 5px 10px;
+}
+.links li    
+{
+    display: inline;
+    /* border: 2px solid; */
+}
+.link_font_pop a, .para_font_pop, .card_price, .card_rating, .para_font_pop_card
+{
+    font-size: 22px;
+    font-weight: medium;
+}
+.shopping_cart, .image_col
+{
+    position: relative;
+    
+}
+.fa-bag-shopping
+{
+    margin-left: 80px;
+} 
+.shopping_dot
+{
+    height: 15px;
+    width: 15px;
+    border: 2px solid #10FF70;
+    border-radius: 50%; 
+    background-color: #10FF70;
+    top: 55%;
+    left: 27%;
+}
+button
+{
+    cursor: pointer;
+    font-size: 20px; 
+}
+.btn
+{
+    width: 120px;
+    background-color: #C2EFD4;
+    
+}
+.info_row .col
+{
+    width: 649px;
+    /* margin-top: 100px; */
+}
+.head_font_rufi
+{
+    font-family: "Rufina", serif;
+    font-size: 5.375rem;
+    word-spacing: 10px;
+}
+
+.para_pop
+{
+    width: 500px;
+    font-size: 24px;
+    padding: 30px 0px;
+}
+.explr_btn
+{
+    width: 200px;
+    background-color: #224F34;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.image_col, .head_font_robo, .para_font_pop, .card_col
+{
+    text-align: center;
+}
+.image_col
+{
+    justify-content: right;
+}
+.image_modal
+{
+    background-color: #6BC785;
+    border-radius: 120px 40px 120px 80px;
+    width: 450px;
+}
+.image_dot1, .image_dot2, .shopping_dot
+{
+    position: absolute;
+    
+}
+.image_dot1
+{
+    top: 350px;
+    left: 220px;
+}
+.image_dot2
+{
+    top: 100px;
+    right: -10px;
+}
+.head_font_robo
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+}
+.main .para_font_pop
+{
+    padding-bottom: 50px;
+}
+.main-para
+{
+    padding: 20px;
+}
+.card_col
+{
+    width: 430px;
+}
+.card_img1
+{
+    background-color: #93B9A2;
+}
+.card_img2
+{
+    background-color: #A9D4BA;;
+}
+.card_img3
+{
+    background-color: #CADCD0;
+}
+.para_font_pop_card
+{
+    font-weight: 500;
+    color: #373737;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.card_price
+{
+    border-right: 2px solid  #010101;
+    padding-right: 15px;
+}
+.card_rating
+{
+    padding-left: 15px;
+}
+.card_price, .card_rating
+{
+    color: #454545;
+}
+.card_icon
+{
+    color: #F5D426;
+}
+.pdct_btn
+{
+    display: block;
+    margin: 20px auto;
+    width: 224px;
+    background-color: white;
+    
+}
+.pdct_btn a
+{
+    padding: 10px;
+}
+.pdct_btn::after
+{
+    content: '\2192';
+    padding: 10px;
+}
+.prdct-heading
+{
+    font-size: 50px;
+}
+.menu
+{
+    text-align: center;
+    padding: 30px 0px;
+}
+.links
+{
+    display: inline;
+    /* background-color: red; */
+    padding: 0px 20px;
+    position: relative;
+}
+.links::before
+{
+    content: '';
+    position: absolute;
+    top: 110%;
+    height: 5px ;
+    width: 0%;
+    background: #224F34;;
+    position: absolute;
+    left:0;
+    transition: .43s;
+}
+.links:hover::before 
+{
+    width: 100%;
+}
+.prdct_row
+{
+    margin-top: 80px;
+}
+.prdct_col
+{
+    width: 320px;
+}
+.prdct_img3
+{
+    background:linear-gradient(to right, #F2F2F2,#EAEAEA);
+}
+.prdct_img1, .prdct_img4
+{
+    background-color: #D9D9D9;
+}
+.prdct_img2
+{
+    background-color: #EAEBF0;
+}
+.prdct_card
+{
+    text-align: center;
+}
+.prdct_img5
+{
+    background-color: #dcfbe7;
+}

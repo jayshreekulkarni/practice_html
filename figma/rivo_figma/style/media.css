@@ -1,0 +1,85 @@
+@media (max-width:992px)
+{
+    .bars
+    {
+        display: block;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+    .info_row .col
+    {
+        width: 450px;
+    }
+   .head_font_rufi
+   {
+        font-size: 50px;
+   }
+   .para_pop
+    {
+        width: 350px;
+        font-size: 18px;
+        padding: 30px 0px;
+    }
+   .image_modal
+    {
+        background-color: #6BC785;
+        border-radius: 120px 40px 120px 80px;
+        width: 320px;
+    }
+    .image_dot1
+    {
+        top: 240px;
+        left: 70px;
+    }
+    .image_dot2
+    {
+        top: 80px;
+        right: -10px;
+    }
+    .card_col
+    {
+        width: 260px;
+    }
+    .card_img img
+    {
+        width: 100%;
+    }
+    .para_font_pop_card
+    {
+        font-size: 18px;
+    }
+}
+@media (max-width:768px)
+{
+    .row
+    {
+        flex-wrap: wrap;
+    }
+    
+     .register
+     {
+        display: none;
+     }
+     .image_dot1
+    {
+        top: 240px;
+        left: 190px;
+    }
+}
+@media (max-width:576px)
+{
+    
+    .nav_row
+    {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+     
+     .image_dot1
+    {
+        top: 240px;
+        left: 0px;
+    }
+}

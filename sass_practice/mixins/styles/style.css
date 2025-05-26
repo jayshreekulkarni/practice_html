@@ -1,0 +1,42 @@
+.p10 {
+  padding-left: 100px;
+}
+
+.p11 {
+  padding-left: 110px;
+}
+
+.p12 {
+  padding-left: 120px;
+}
+
+.p13 {
+  padding-left: 130px;
+}
+
+#x5 {
+  padding-left: 50px;
+}
+
+#x6 {
+  padding-left: 60px;
+}
+
+#x7 {
+  padding-left: 70px;
+}
+
+#x8 {
+  padding-left: 80px;
+}
+
+#x9 {
+  padding-left: 90px;
+}
+
+.x {
+  background: linear-gradient(gray, blue);
+  height: 100px;
+  width: 100px;
+  border: 20px double #000;
+}/*# sourceMappingURL=style.css.map */

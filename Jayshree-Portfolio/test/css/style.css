@@ -1,0 +1,311 @@
+*{
+    box-sizing:border-box;
+     margin: 0;
+     padding: 0;
+    font-family: Open Sans;
+    }
+
+.container 
+{
+    /* background-color:rgb(255, 223, 223); */
+    color: #fff;
+}
+.bannerinfo 
+{
+    border: 3px solid #000;
+    width: 1300px;
+    margin: auto;
+    padding: 10px 24px;
+}
+.header
+{
+    background:black; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header .logo 
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu 
+{
+    display: block;
+}
+.menu li
+{
+    display: inline;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: sans-serif; */
+    position: relative;
+}
+.menu li::before
+{
+    content: "";
+    height: 2px ;
+    width: 0%;
+    background: white;
+    position: absolute;
+    top:130%;
+    left:0;
+    transition: .43s;
+}
+.menu li:hover::before
+{
+    width: 100%;
+
+}
+.bars 
+{
+    display: none;
+}
+ .container  li
+{
+    display: inline;
+    margin-right: 20px;
+    word-spacing: 10px; 
+} 
+
+.container a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Open Sans;
+   
+
+} 
+.main
+{
+    /* background: lightcoral; */
+}
+.hero
+{
+    width: inherit;
+    position: relative;
+}
+.hero img
+{
+    width: 100%;
+}
+.text h2
+{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 60px;
+}
+.text p
+{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 480px;
+    font-size: 30px;
+}
+.about
+{
+    /* background: lightblue; */
+}
+.about .container1
+{
+    width: 1200px ;
+    margin: 0px auto;
+    /* border: 2px solid black; */
+}
+.container1 .row
+{
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+   
+}.container1 .row .col1
+{
+    flex-basis: 550px;
+    color: black;
+    /* background: lightpink; */
+}
+.banner1
+{
+    width: inherit;
+    max-width: 100%;
+    flex-shrink: 0;
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.banner1 .img1
+{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.banner1 .img1 img
+{
+    width: 100%;
+}
+.banner1 .text1
+{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+}
+.text1 p
+{
+    padding-left: 20px;
+    color: black;
+    font-size: 18px;
+}
+.skills
+{
+    width: 580px;
+    color: black;
+    /* border: 2px solid black; */
+}
+.banner2
+{
+    width: 500px;
+    margin: 5px auto;
+}
+.banner2 h5
+{
+   
+    font-size: 18px;
+}
+.skill1
+{
+    width: 540px;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    position: relative;
+}
+.skill1 p
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.skillbar
+{
+    height: 10px;
+    width: 100%;
+    color: lightskyblue;
+}
+.skill2
+{
+    width: 540px;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    position: relative;
+}
+.skill2 p
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.skill3
+{
+    width: 540px;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    position: relative;
+}
+.skill3 p
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.aboutme
+{
+    width: 500px;
+    margin: 20px 20px 50px 20px;
+    /* border: 2px solid black; */
+}
+.aboutme h2
+{
+    font-family: "raleway", sans-serif;
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.aboutme h2::after
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: rgba(47, 123, 216, 0.856);
+}
+.resume
+{
+    width: inherit;
+    color: black;
+    border: 2px solid coral;
+    background: lightseagreen; 
+
+}
+.title
+{
+    width: 1200px;
+    /* border: 2px solid blue; */
+    margin: 10px auto;
+
+}
+.title h2
+{
+    font-family:"raleway", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    text-align: center;
+   
+}
+.title h2::after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 50px;
+    height: 5px;
+    margin: auto;
+    background: rgba(47, 123, 216, 0.856);
+}
+.resume .container2
+{
+    width: 1200px;
+    background: lightgreen;
+    margin: 20px auto ;
+}
+.resume .row2
+{
+    width: 1200px;
+    border: 2px solid red; 
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

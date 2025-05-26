@@ -1,0 +1,45 @@
+@media (max-width:576px)
+{
+    .links, .search
+    {
+        display: none;
+    }
+    .bars
+    {
+        display: block;
+    }
+    
+    .header
+    {
+       height: 80vh;
+       position: relative;
+    } 
+     .new-arrival
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 490px;
+    }
+
+    .info-msg
+    {
+        width: 450px;
+    }
+    .range
+    {
+        margin-top: 75%;
+    }
+    .arr-para
+    {
+        font-size: 20px;
+    }
+    .insp-row
+    {
+        flex-wrap: wrap;
+    }
+    .room-img3
+    {
+        display: none
+    }
+}

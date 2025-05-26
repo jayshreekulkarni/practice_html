@@ -1,0 +1,214 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+h1,h2,h3
+{
+    font-family: "Libre Baskerville", serif;
+}
+.header
+{
+
+    height: 100vh;
+    color: white;
+     background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    url(../images/hero_bg.jpg); 
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: darken;
+}
+.container
+{
+    border: 2px solid black;
+    padding: 10px 150px;
+}
+.row
+{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.col
+{
+    width: 280px;
+    border: 2px solid blue;
+    flex-grow: 1;
+
+}
+.list-info
+{
+    padding-left: 10px;
+}
+ ul li
+{
+    list-style: none;
+    padding: 10px 10px;
+}
+.connect ul li
+{
+    display: inline;
+}
+.register ul
+{
+    display: flex;
+    justify-content: right;
+}
+.logo 
+{
+    font-size: 25px;
+    
+}
+.navmenu
+{
+    width: 550px;   
+    
+    /* background-color: lightcoral; */
+}
+.main-menu
+{
+    display: inline;
+}
+.deep-dropdown, .submenu
+{
+    /* display: none; */
+    opacity: 0;
+}
+.main-menu, .menu
+{
+    position: relative;
+}
+.deep-dropdown, .submenu
+{
+    background-color: white;
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    width: 100%;
+    transition: 1s;
+    z-index: -1;
+}
+.deep-dropdown li a, .submenu li a
+{
+    color: black;
+}
+.deep-dropdown li a:hover, .submenu li a:hover
+{
+    color:#0fb78d
+}
+.main-menu:hover .deep-dropdown
+{
+    /* display: block; */
+    top: 100%;
+    opacity: 1;
+    color: black;
+    z-index: 1
+}
+.menu:hover .submenu
+{
+    opacity: 1;
+    left: 100%;
+    top: 0%;
+    width: 150px;
+    z-index: 1
+}
+.bars
+{
+    width: 50px;
+    text-align: center;
+    display: none;
+}
+
+.btn button
+{
+    width: 120px;
+    padding: 10px 10px;
+    background-color: #20c997;
+    color: white;
+    border-radius: 40px;
+    margin-left: 55%;
+    /* transform: translateX(140%); */
+}
+.banner-info
+{
+    padding-top: 10%;
+}
+h1 
+{
+    width: 550px;
+    font-size: 3.2vw;
+}
+p 
+{
+    width: 500px;
+    font-size: 1.5vw;
+    padding: 25px 0;
+}
+.learn button
+{
+    padding: 12px 12px;
+    background-color: #20c997;
+    border-color: #20c997;
+    color: white;
+    border-radius: 40px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.learn p span
+{
+    border-bottom: 5px solid #0fb78d;
+}
+
+.ply-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ply-btn
+{
+    width: 80px;
+    height: 80px;
+    background-color: #0fb78d;
+    border-radius: 50%;
+    position: relative;
+    
+    
+}
+.ply-btn::before
+{
+    content: "";
+    height: 70px;
+    width: 70px;
+    border: 2px solid #0fb78d;
+    border-radius: 50%; 
+    padding: 10px;
+    position: absolute;
+    top: -9%;
+    left: -8%;
+    
+}
+.ply-btn i
+{
+   position: absolute;
+   top: 30%;
+   left: 40%;
+   color: white;
+}
+

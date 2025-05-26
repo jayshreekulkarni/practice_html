@@ -1,0 +1,39 @@
+@mixin xyz($color:goldenrod)
+{
+    background: linear-gradient($color,blue);
+    height: 100px;
+    width: 100px;
+    border: 20px double #000;
+}
+
+//for(x=1;x<=4;x++)
+//{
+//}
+
+// @for $var from <start> to <end>   
+// @for $x from 10 to 50
+// @for $var from <start> through <end>  
+// @for $x from 10 through 50
+
+// @for $i from 1 to 4 {  
+//     .p#{$i} { padding-left : $i * 10px; }  
+//   }   
+
+@for $x from 10 to 14
+{
+    .p#{$x} {padding-left:$x * 10px;}
+    // .p11{padding-left:$x + 10px;}
+    // .p12{padding-left:$x+ 10px;}
+    // .p13{padding-left:$x+ 10px;}
+   
+}
+
+@for $i from 5 through 9
+{
+    #x#{$i}{padding-left: $i *10px;}
+}
+
+.x 
+{
+    @include xyz($color:gray);
+}

@@ -1,0 +1,91 @@
+@media (max-width:992px)
+{
+    
+    .row
+    {
+        flex-wrap: wrap;
+    }
+    .col
+    {
+        flex-grow: 1;
+    }
+    
+    .list-info
+    {
+        display: none;
+    }
+    .navmenu
+    {
+        display: none;
+    }
+    .btn
+    {
+        order: 0;
+    }
+    .btn button
+    {
+        margin-left: 30%;
+       
+    }
+    .bars 
+    {
+        display: block;
+        font-size: 25px;
+        order: 3;
+    }
+   .learn, .play
+   {
+    width: 992px;
+   }
+   .play
+   {
+    order: -1;
+   }
+   .info
+   {
+       max-width: 450px;
+       margin: auto;
+      border: 4px solid orangered;
+     
+   }
+   .info p
+   {
+        width: 400px;
+        font-size: 2vw;
+        margin: auto;
+   }
+   .info button
+   {
+    margin-left: 35%;
+   }
+}
+
+@media (max-width:572px)
+{
+    .container
+    {
+        padding: 0;
+    }
+    .row
+    {
+        flex-wrap: nowrap;
+    }
+    .banner-info
+    {
+        flex-wrap: wrap;
+    }
+    .info
+    {
+        overflow-x: hidden;
+    }
+    .info h1
+    {
+        font-size: 4vw;
+        padding: 5px 50px;
+    }
+    .info p
+    {
+        font-size: 3vw;
+        padding: 15px 40px;
+    }
+}
