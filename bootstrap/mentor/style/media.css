@@ -1,0 +1,22 @@
+@media(max-width:1200px)
+{
+    .back-img
+    {
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    .info-head
+    {
+        padding-top: 100px;
+    }
+    .head_font.para
+    {
+        font-size: 17px;
+    }
+    .info-font
+    {
+        font-size: 30px;
+    }
+}
