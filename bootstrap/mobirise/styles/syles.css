@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.btn button, .btn1 button, .design,  .row1, .prof-row, .view-row, .msg-col
+ {
+    background:  #a8d741;
+}
+.btn1 button span{
+
+    color: #a8d741;
+    background: black;
+}
+.text
+{
+  font-size: 80px;
+}
+
+/* .card-title
+{
+    font-size: 60px !important;
+} */
+.about, .shop, .team, .review, .contacts, .message
+{
+    margin-top: 150px;
+    ;
+}
+.about p, .shop p
+{
+    color: #696969;
+    padding-right: 100px;
+}
+.view i{
+    color: #a8d741;
+}
+/* .view i:hover {
+    color:  #a8d741
+} */
+
+@media(min-width: 576px)
+{
+    .btn  button
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
