@@ -35,7 +35,7 @@ a
     font-size: 14px;
     text-transform: none;
 }
-.default-color
+.default-color, .card-social i
 {
     color: #444444;
 }
@@ -118,17 +118,21 @@ a
     background-color: #5fcf80;
     margin: 5px 10px;
 }
+.abt-list
+{
+    padding-bottom: 10px;
+}
 .course-info
 {
     text-transform: uppercase;
     color: #37423b;
-    font-size: 36px;
+     font-size: 36px;
 }
 .price-para, .card-text
 {
     color: #a19f9f;
 }
-.card-title a, .hea-info-font, .user-like span, i
+.card-title a, .hea-info-font, .user-like span, i, .abt-font, .abt-para
 {
     font-size: 20px;
 }
@@ -136,7 +140,7 @@ a
 {
     font-weight: 700;
 }
-.prsn-info:hover, .card-title a:hover, .social-links a:hover
+.prsn-info:hover, .card-title a:hover, .social-links a:hover, .fa-circle-check
 {
     color: #5fcf80;
 }
